@@ -1,9 +1,13 @@
-import Counter from "./components/Counter"
+import Counter from "./components/SingleCounter/Counter"
+import GetReview from "./components/Review/GetReview/GetReview"
+import Dashboard from "./components/Review/Dashboard/Dashboard"
 
 const App = () => {
   return (
     <div>
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <GetReview/> */}
+      <Dashboard/>
     </div>
   )
 }
